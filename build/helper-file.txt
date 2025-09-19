@@ -1,0 +1,7 @@
+this is a support-file.
+it is needed while this directory is empty so that git can add it to the commit.
+P.S. unfortunately git does not add empty directories in commit. :3
+
+это вспомогательный файл.
+он нужен пока эта директория пуста, для того чтобы git смог добавить её в коммит.
+P.S. к сожалению git не добавляет пустые директории в коммит. :3

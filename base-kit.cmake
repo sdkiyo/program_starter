@@ -1,0 +1,35 @@
+set ("${PROJECT_NAME}_VERSION_RELEASE" 0)
+set ("${PROJECT_NAME}_VERSION_DEV" 1)
+set ("${PROJECT_NAME}_VERSION" ${${PROJECT_NAME}_VERSION_RELEASE}.${${PROJECT_NAME}_VERSION_DEV})
+set ("ver" ${${PROJECT_NAME}_VERSION_RELEASE}.${${PROJECT_NAME}_VERSION_DEV})
+
+set (supported_languages CXX C)
+
+set (CMAKE_CXX_STANDARD 23)
+set (CMAKE_C_STANDARD 23)
+
+string(ASCII 27 Esc)
+set(rc		"${Esc}[0m")# reset_color
+set(reset_color	"${Esc}[0m")
+set(underline	"${Esc}[4m")
+set(italic	"${Esc}[3m")
+set(bold	"${Esc}[1m")
+
+set(gray	"${Esc}[2m")
+set(black	"${Esc}[30m")
+set(red		"${Esc}[31m")
+set(green	"${Esc}[32m")
+set(yellow	"${Esc}[33m")
+set(blue	"${Esc}[34m")
+set(magenta	"${Esc}[35m")
+set(cyan	"${Esc}[36m")
+set(white	"${Esc}[37m")
+
+set(black_bg	"${Esc}[40m")
+set(red_bg	"${Esc}[41m")
+set(green_bg	"${Esc}[42m")
+set(yellow_bg	"${Esc}[43m")
+set(blue_bg	"${Esc}[44m")
+set(magenta_bg	"${Esc}[45m")
+set(cyan_bg	"${Esc}[46m")
+set(white_bg	"${Esc}[47m")

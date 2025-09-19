@@ -1,0 +1,4 @@
+/tests/*/build/*
+!/tests/*/build/helper-file.txt
+build/*
+!build/helper-file.txt
